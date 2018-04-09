@@ -1,0 +1,61 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    right: 200px;
+    bottom: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, .24), 0 3px 12px 0 rgba(0, 0, 0, .12);
+    min-width: 500px;
+/*    margin-top:50px;
+    margin-left: 400px;
+    margin-right: 400px;*/
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.modal-post {
+    max-height: 225px;
+
+}
+
+.modal-login {
+    max-height: 350px;
+
+}
+
+
+.close-modal {
+    cursor: pointer;
+    display: block;
+    width: 60px;
+    right: 15px;
+    float: right;
+    margin-top: -20px !important;
+    height: 60px;
+    background: url('./assets/cancel.svg') no-repeat center;
+    background-size: 30px;
+    font-size: 0;
+}
+
+.modal-footer {
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+}
